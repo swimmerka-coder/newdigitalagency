@@ -1737,17 +1737,16 @@ h1, h2, h3, h4, h5, h6 {
   .contact__info {
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     row-gap: 30px;
-  }
-  .contact__social-media {
-    max-width: 380px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 75px 0;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
+  }.contact__social-media {
+		max-width: 300px;
+		padding: 75px 0;
+		margin: 0;
+		display: flex;
+		justify-content: space-between;
+	}
+	.contact__social-media-item {
+		padding: 0;
+	}
 
   .footer {
     -ms-grid-rows: 1fr;
