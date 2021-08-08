@@ -287,7 +287,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .work__item {
   position: relative;
-  margin: 15px;
 }
 .work__item_1 {
   -webkit-box-ordinal-group: 2;
