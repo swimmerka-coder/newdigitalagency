@@ -287,6 +287,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .work__item {
   position: relative;
+	margin: 15px;
 }
 .work__item_1 {
   -webkit-box-ordinal-group: 2;
@@ -1365,7 +1366,8 @@ h1, h2, h3, h4, h5, h6 {
   .work__image, .work__image2 {
     min-height: 350px;
   }
-
+.work__item{
+	margin: 0;
   .blog__items {
     grid-template: 1fr/repeat(auto-fit, minmax(100%, 1fr));
   }
